@@ -1,5 +1,4 @@
 import { Button } from '@/components/ui/button';
-import React from 'react';
 
 const HeroSection = () => {
   return (
@@ -18,7 +17,9 @@ const HeroSection = () => {
         <p className="text-xl font-medium leading-snug text-white md:text-2xl">
           Book an entire place all for yourself
         </p>
-        <Button className="cursor-pointer h-12 px-4 text-base font-semibold mt-6">Discover Holiday Rentals</Button>
+        <Button className="cursor-pointer h-12 px-4 text-base font-semibold mt-6">
+          Discover Holiday Rentals
+        </Button>
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import axiosInstance from '../axiosInstance';
+import axiosInstance from '../axios-instance';
 
 function useQuery({ url, options = {} }) {
   const [queryState, setQueryState] = useState({
